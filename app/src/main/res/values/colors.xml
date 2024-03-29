@@ -5,4 +5,5 @@
 
     <color name="background_card">#FF081A4A</color>
     <color name="background_app">#010937</color>
+    <color name="subtitle_text">#959595</color>
 </resources>
