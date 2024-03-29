@@ -13,7 +13,12 @@
         android:theme="@style/Theme.Films_viu"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".films.FilmsActivity"
+            android:exported="true"
+            >
+        </activity>
+        <activity
+            android:name=".MenuActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

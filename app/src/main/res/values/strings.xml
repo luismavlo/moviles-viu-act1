@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">films_viu</string>
+    <string name="peliculas">Peliculas</string>
+    <string name="listado_de_peliculas">Listado de peliculas</string>
 </resources>
