@@ -3,7 +3,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="background_card">#FF081A4A</color>
+    <color name="background_card">#FF2D4993</color>
     <color name="background_app">#010937</color>
     <color name="subtitle_text">#959595</color>
+    <color name="film_accent">#e91e63</color>
+    <color name="background_disabled">#787878</color>
 </resources>
