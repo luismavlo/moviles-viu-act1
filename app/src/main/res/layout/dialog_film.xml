@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="@color/background_card"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etFilm"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:hint="@string/add_film_txt"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etImgFilm"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:hint="@string/add_link_img_film_txt"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etDuration"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/white"
+        android:hint="@string/add_duration_txt"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:id="@+id/rgCategories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action"
+            android:textColor="@color/white"
+            android:buttonTint="@color/film_accent"
+            />
+
+        <RadioButton
+            android:id="@+id/rbSuspense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/suspenso"
+            android:textColor="@color/white"
+            android:buttonTint="@color/film_accent"
+            />
+
+        <RadioButton
+            android:id="@+id/rbRomance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/romance"
+            android:textColor="@color/white"
+            android:buttonTint="@color/film_accent"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnAddFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/film_accent"
+        android:text="@string/create_film"
+        />
+
+</LinearLayout>
