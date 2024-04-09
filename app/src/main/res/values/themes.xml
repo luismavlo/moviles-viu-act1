@@ -6,4 +6,9 @@
     </style>
 
     <style name="Theme.Films_viu" parent="Base.Theme.Films_viu" />
+    <style name="Theme.Splash"  parent="Theme.SplashScreen">
+        <item name="windowSplashScreenIconBackgroundColor">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/film_viu</item>
+        <item name="postSplashScreenTheme" >@style/Theme.Films_viu </item>
+    </style>
 </resources>

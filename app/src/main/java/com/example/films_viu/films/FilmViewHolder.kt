@@ -5,6 +5,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.films_viu.R
+import com.squareup.picasso.Picasso
 
 
 class FilmViewHolder(view: View): RecyclerView.ViewHolder(view) {
@@ -16,8 +17,7 @@ class FilmViewHolder(view: View): RecyclerView.ViewHolder(view) {
     fun render(film: Film){
         tvTitleFilm.text = film.name
         tvDurationFilm.text = film.duration
-
-        //Picasso.get().load(film.imgFilm).into(imFilmImg)
+        Picasso.get().load(film.imgFilm).into(imFilmImg)
     }
 
 }
