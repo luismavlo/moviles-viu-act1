@@ -34,7 +34,5 @@ class AnimesActivity : AppCompatActivity() {
         rvAnimes.layoutManager = LinearLayoutManager(this)
         rvAnimes.adapter = animeAdapter
         Log.i(TAG, "animeAdapter ${animeAdapter} recibida")
-
-
     }
 }
