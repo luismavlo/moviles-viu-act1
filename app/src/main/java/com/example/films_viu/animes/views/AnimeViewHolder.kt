@@ -13,6 +13,7 @@ class AnimeViewHolder(view: View) : RecyclerView.ViewHolder(view) {
     private val txtTituloAnime: TextView = view.findViewById(R.id.txtTituloAnime)
     private val txtAvgRating: TextView = view.findViewById(R.id.txtAverageRating)
     private val txtStrDate: TextView = view.findViewById(R.id.txtStartDate)
+
     fun render(anime: Anime) {
         txtTituloAnime.text = anime.titulo
         txtAvgRating.text = anime.avgRating
