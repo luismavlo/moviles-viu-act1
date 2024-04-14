@@ -60,5 +60,6 @@ class AnimesActivity : AppCompatActivity() {
         }
 
 
+
     }
 }
