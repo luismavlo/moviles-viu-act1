@@ -12,6 +12,7 @@
     <string name="create_film">Crear Película</string>
     <string name="add_duration_txt">Añade la duración</string>
     <string name="add_link_img_film_txt">Añade el link de la imagen</string>
+    <string name="imgsmenu">films imgs menu</string>
 
     <string name="animes">Animes</string>
     <string name="listado_de_animes">Listado de animes</string>
